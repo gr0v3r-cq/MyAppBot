@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context="cq.gr0v3r.myappbot.MainActivity"
+    android:background="@drawable/fondocell"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/TextViewTitulo"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/Titulo"
+            android:layout_weight="0.06"
+            android:textAlignment="center"
+            android:textSize="70sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/xbox_controller"
+            android:drawablePadding="0dp"
+            android:id="@+id/BotonControl"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAzulOscuro"
+            android:text="@string/Controle"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/codepen"
+            android:drawablePadding="0dp"
+            android:id="@+id/BotonZumo"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAzulOscuro"
+            android:text="@string/Zumo"
+            android:textSize="30sp"
+            android:layout_below="@+id/BotonControl"
+            android:layout_alignLeft="@+id/BotonControl"
+            android:layout_alignStart="@+id/BotonControl"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/material_ui"
+            android:drawablePadding="0dp"
+            android:id="@+id/BotonLinea"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAzulOscuro"
+            android:text="@string/SigueLinea"
+            android:textSize="30sp"
+            android:layout_below="@+id/BotonControl"
+            android:layout_alignLeft="@+id/BotonControl"
+            android:layout_alignStart="@+id/BotonControl"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/chemical_weapon"
+            android:drawablePadding="0dp"
+            android:id="@+id/BotonLuz"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAzulOscuro"
+            android:text="@string/SigueLuz"
+            android:textSize="30sp"
+            android:layout_below="@+id/BotonControl"
+            android:layout_alignLeft="@+id/BotonControl"
+            android:layout_alignStart="@+id/BotonControl"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

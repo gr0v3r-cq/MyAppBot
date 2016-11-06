@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyAppBot</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Controles">Controles</string>
+    <string name="Controle">Control</string>
+    <string name="Zumo">Zumo</string>
+    <string name="SigueLineas">Sigue Lineas</string>
+    <string name="SigueLuz">Sigue Luz</string>
+    <string name="SigueLinea">Sigue Linea</string>
+    <string name="list_songs">Lista Bluetooth</string>
+    <string name="Control">Control</string>
+</resources>
